@@ -15,17 +15,17 @@ assignees:
 Only use "Description" if additional context is required. 
 If not, all details should be included under the appropriate Task item. 
 
-- Add any subtasks or success requirements under the Task they relate to (if needed).
-- Tasks should just be plain text instead of linking to another issue, unless it is an Epic.
-- Epic issues should not be put in TODO or assigned directly to someone.
-- Assigned issues should not have sub-issues.
+- Add any subtasks or requirements under the Task they relate to (if needed).
 - For most issues, you only need a simple list of tasks.
 
-💡 Example of a task with subtasks/success requirements:
+- Tasks should just be plain text instead of linking to another issue, unless it is an Epic.
+- Epic issues may include "Sub Issues" by referencing other GitHub issues (e.g., #123)
+- Epic issues should not be put in TODO.
+- Assigned issues should not have sub-issues.
+
+💡 Example of a task with subtasks/requirements:
 - [ ] Implement login button
-  - [ ] UI renders login button
-  - [ ] Button triggers API call
-  - [ ] User is redirected on success
+  - [ ] Sub task / requirements
 
 📌 Clarification: 
 - An "Issue" is the GitHub issue itself (the thing you are creating here). 
